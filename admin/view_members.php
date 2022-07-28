@@ -3,7 +3,7 @@
 include '../DB/DB.php';
 global $connection;
 
-$base_url = "https://lcch.ictforlife.org";
+$base_url = "https://colomboheroes.org";
 $sql_loadMembers = "SELECT * FROM members ORDER BY id DESC";
 
 include './header.php';

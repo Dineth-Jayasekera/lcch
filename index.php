@@ -1173,7 +1173,7 @@ $sql_loadProvince = "SELECT * FROM provinces";
                                                     var toast = new bootstrap.Toast(toastLive);
                                                     toast.show();
                                                 } else {
-                                                    window.location.replace("https://lcch.ictforlife.org/admin");
+                                                    window.location.replace("https://colomboheroes.org/admin");
                                                 }
 
                                             }

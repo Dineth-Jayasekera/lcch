@@ -1,6 +1,6 @@
 <?php
 if (!isset($_COOKIE["displayName"]) || $_COOKIE["displayName"] == "") {
-    echo '<script>window.location.replace("https://lcch.ictforlife.org?loginInvalid=yes");</script>';
+    echo '<script>window.location.replace("https://colomboheroes.org?loginInvalid=yes");</script>';
     exit;
 }
 ?>
@@ -133,7 +133,7 @@ if (!isset($_COOKIE["displayName"]) || $_COOKIE["displayName"] == "") {
 
                     <li class="nav-item dropdown">
 
-                        <a class="nav-link nav-icon" target="_blank" href="https://lcch.ictforlife.org/">
+                        <a class="nav-link nav-icon" target="_blank" href="https://colomboheroes.org/">
                             <!--<i class="bi bi-globe"></i>-->
                             <i class="lcch"></i>
                         </a><!-- End Website Icon -->

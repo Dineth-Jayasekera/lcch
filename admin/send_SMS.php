@@ -2,7 +2,7 @@
 <?php
 $role = $_COOKIE["role"];
 if($role != "Super Admin"){
-    echo '<script>window.location.replace("https://lcch.ictforlife.org/admin");</script>';
+    echo '<script>window.location.replace("https://colomboheroes.org/admin");</script>';
     exit;
 }
 

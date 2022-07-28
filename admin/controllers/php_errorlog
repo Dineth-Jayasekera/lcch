@@ -1,17 +1,17 @@
-[05-Jul-2022 09:26:37 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home/customer/www/lcch.ictforlife.org/public_html/admin/controllers/excoSave.php:24
+[05-Jul-2022 09:26:37 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home/customer/www/colomboheroes.org/public_html/admin/controllers/excoSave.php:24
 Stack trace:
 #0 {main}
-  thrown in /home/customer/www/lcch.ictforlife.org/public_html/admin/controllers/excoSave.php on line 24
-[08-Jul-2022 12:21:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/customer/www/lcch.ictforlife.org/public_html/admin/controllers/projectSave.php:32
+  thrown in /home/customer/www/colomboheroes.org/public_html/admin/controllers/excoSave.php on line 24
+[08-Jul-2022 12:21:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/customer/www/colomboheroes.org/public_html/admin/controllers/projectSave.php:32
 Stack trace:
 #0 {main}
-  thrown in /home/customer/www/lcch.ictforlife.org/public_html/admin/controllers/projectSave.php on line 32
-[12-Jul-2022 08:32:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; sendMail has a deprecated constructor in /home/customer/www/lcch.ictforlife.org/public_html/admin/controllers/helpers/sendMail.php on line 17
-[12-Jul-2022 08:32:19 UTC] PHP Fatal error:  require(): Failed opening required './PHPMailer/PHPMailer.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/lcch.ictforlife.org/public_html/admin/controllers/helpers/sendMail.php on line 8
-[12-Jul-2022 08:33:08 UTC] PHP Fatal error:  require(): Failed opening required './PHPMailer/PHPMailer.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/lcch.ictforlife.org/public_html/admin/controllers/helpers/sendMail.php on line 8
-[12-Jul-2022 08:36:05 UTC] PHP Fatal error:  require(): Failed opening required '/home/customer/www/lcch.ictforlife.org/public_html/admin/controllers/helpers./PHPMailer/PHPMailer.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/lcch.ictforlife.org/public_html/admin/controllers/helpers/sendMail.php on line 8
-[20-Jul-2022 12:40:51 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/customer/www/lcch.ictforlife.org/public_html/admin/controllers/helpers/sendSMS.php:101
+  thrown in /home/customer/www/colomboheroes.org/public_html/admin/controllers/projectSave.php on line 32
+[12-Jul-2022 08:32:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; sendMail has a deprecated constructor in /home/customer/www/colomboheroes.org/public_html/admin/controllers/helpers/sendMail.php on line 17
+[12-Jul-2022 08:32:19 UTC] PHP Fatal error:  require(): Failed opening required './PHPMailer/PHPMailer.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/colomboheroes.org/public_html/admin/controllers/helpers/sendMail.php on line 8
+[12-Jul-2022 08:33:08 UTC] PHP Fatal error:  require(): Failed opening required './PHPMailer/PHPMailer.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/colomboheroes.org/public_html/admin/controllers/helpers/sendMail.php on line 8
+[12-Jul-2022 08:36:05 UTC] PHP Fatal error:  require(): Failed opening required '/home/customer/www/colomboheroes.org/public_html/admin/controllers/helpers./PHPMailer/PHPMailer.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/colomboheroes.org/public_html/admin/controllers/helpers/sendMail.php on line 8
+[20-Jul-2022 12:40:51 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/customer/www/colomboheroes.org/public_html/admin/controllers/helpers/sendSMS.php:101
 Stack trace:
-#0 /home/customer/www/lcch.ictforlife.org/public_html/admin/controllers/sendSMS.php(9): sendSMS->send('94777497048,947...', 'Test message we...')
+#0 /home/customer/www/colomboheroes.org/public_html/admin/controllers/sendSMS.php(9): sendSMS->send('94777497048,947...', 'Test message we...')
 #1 {main}
-  thrown in /home/customer/www/lcch.ictforlife.org/public_html/admin/controllers/helpers/sendSMS.php on line 101
+  thrown in /home/customer/www/colomboheroes.org/public_html/admin/controllers/helpers/sendSMS.php on line 101

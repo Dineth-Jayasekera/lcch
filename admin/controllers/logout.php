@@ -11,5 +11,5 @@ setcookie('role', null, -1, '/');
 setcookie('fullName', null, -1, '/');
 setcookie('image', null, -1, '/');
 setcookie('member_id', null, -1, '/');
-echo '<script>window.location.replace("https://lcch.ictforlife.org");</script>';
+echo '<script>window.location.replace("https://colomboheroes.org");</script>';
 exit;
