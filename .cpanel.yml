@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/colomboh/public_html/
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
