@@ -219,7 +219,7 @@ $sql_loadProvince = "SELECT * FROM provinces";
                 </div>
             </section><!-- End Why Us Section -->
 
-            <!-- ======= Immediate Pass President Message ======= -->
+            <!-- ======= Immediate Past President Message ======= -->
             <?php
             $result_ImmediatePassPresidentMessage = mysqli_query($connection, $sql_ImmediatePassPresidentMesssage);
             $row_ImmediatePassPresidentMessage = mysqli_fetch_assoc($result_ImmediatePassPresidentMessage);
@@ -228,7 +228,7 @@ $sql_loadProvince = "SELECT * FROM provinces";
                 <div class="container" data-aos="fade-up">
 
                     <div class="section-title">
-                        <h2>Immediate Pass President Message</h2>
+                        <h2>Immediate Past President Message</h2>
                     </div>
 
 
