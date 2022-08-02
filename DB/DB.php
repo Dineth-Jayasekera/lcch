@@ -1,5 +1,5 @@
 <?php
-$host = "localhost";
+$host = "192.99.232.124";
 $user_name = "colomboh_lcch";
 $password="WelCome./@1";
 $DB_name="colomboh_lcch";
