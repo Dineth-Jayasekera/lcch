@@ -91,12 +91,14 @@ $sql_loadProvince = "SELECT * FROM provinces";
                                 <li><a href="#team">Executive Board</a></li>
                                 <li><a href="#ipps">Past Presidents</a></li>
                                 <li><a target="_blank" href="https://bit.ly/3JaQRzO">E-Directory</a></li>
+                                <li><a class="nav-link scrollto" href="#join-newsletter">Newsletters</a></li>
                             </ul>
                         </li>
                         <li><a class="nav-link scrollto" href="#">Achievements</a></li>
                         <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                        <li><a class="nav-link scrollto" href="#join-newsletter">Newsletters</a></li>
+                       
                         <li><a class="nav-link scrollto" href="#contact">Reach Us</a></li>
+                        <li><a class="nav-link scrollto" href="#">Shop Now</a></li>
                         <li><a class="getstarted scrollto" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li>
                     </ul>
                     <i class="bi bi-list mobile-nav-toggle"></i>
